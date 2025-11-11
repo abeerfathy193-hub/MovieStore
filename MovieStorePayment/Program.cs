@@ -18,7 +18,7 @@ namespace MovieStorePayment
                 options.AddPolicy("AllowAngularApp",
                     policy =>
                     {
-                        policy.WithOrigins("https://localhost:4200") 
+                        policy.WithOrigins("https://movies-store-blush.vercel.app") 
                               .AllowAnyHeader()
                               .AllowAnyMethod();
                     });
